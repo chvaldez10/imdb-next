@@ -10,9 +10,9 @@ export default function DarkModeSwitch() {
 
   useEffect(() => setMounted(true), []);
 
-  console.log(`them = ${theme}`);
-  console.log(`systemTheme = ${systemTheme}`);
-  console.log(`currentTheme = ${currentTheme}`);
+  // console.log(`theme = ${theme}`);
+  // console.log(`systemTheme = ${systemTheme}`);
+  // console.log(`currentTheme = ${currentTheme}`);
 
   return (
     <div>
